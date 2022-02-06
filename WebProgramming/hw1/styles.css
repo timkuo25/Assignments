@@ -1,0 +1,41 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  width: 200px;
+  background-color:rgb(23, 3, 41);
+  color: rgb(256,256,256);
+  font-family: sans-serif;
+  text-align : center;
+  overflow:auto;
+  padding-top: 20px;
+}
+
+.album{
+    width: 80%;
+    margin-top: 20px;
+    border: 4px solid white;
+}
+
+.card *{
+    margin: auto;
+}
+
+.card h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.play{
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.play > i{
+    color: white;
+    background-color: inherit;
+    border: none;
+    border-radius: 100%;
+    margin: 0px 12px;
+    cursor: pointer;
+}

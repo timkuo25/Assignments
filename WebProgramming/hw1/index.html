@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Player</title>
+    </head>
+    <body>
+        <div class="card">
+            <img class="album" src="hd.jpg" alt="Hopes and Dreams"/>
+            <h4>Hopes and Dreams</h4>
+            <h5>Toby Fox</h5>
+            <nav class="play">
+                <i class="fa fa-step-backward" style="transform: scale(1.5, 1);"></i>
+                <i class="fa fa-play" onclick="change(this)"></i> <script>change = x => x.classList.toggle("fa-pause");</script>
+                <i class="fa fa-step-forward" style="transform: scale(1.5, 1);"></i>
+            </nav>
+        </div>
+    </body>
+</html>
