@@ -1,3 +1,0 @@
-# StatLearn
-
-Statistical Learning
